@@ -7,12 +7,12 @@ node_modules/
 
 # logs/state
 logs/
-state/*.log
 
 # foundry
 contracts/cache/
 contracts/out/
 contracts/broadcast/
+contracts/lib/
 
 # mac
 .DS_Store
