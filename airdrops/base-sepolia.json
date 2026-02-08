@@ -1,0 +1,23 @@
+{
+  "chain": "baseSepolia",
+  "airdrops": [
+    {
+      "id": "demo-claim",
+      "type": "simple",
+      "name": "ClaimDemo (CCAT)",
+      "contract": "0xF32eD2f8e132B4Cb507E06004D0bd3079F4A0fB3",
+      "claimableFn": "claimable(address)",
+      "claimFn": "claimReward()",
+      "tokenSymbol": "CCAT"
+    },
+    {
+      "id": "mock-merkle",
+      "type": "merkle",
+      "name": "Mock Merkle Drop (CCAT)",
+      "contract": "0x0000000000000000000000000000000000000000",
+      "claimFn": "claim(uint256,address,uint256,bytes32[])",
+      "proofs": "./airdrops/proofs/mock-merkle.json",
+      "tokenSymbol": "CCAT"
+    }
+  ]
+}

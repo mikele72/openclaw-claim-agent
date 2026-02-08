@@ -1,0 +1,14 @@
+{
+  "contract": "0x0000000000000000000000000000000000000000",
+  "tokenSymbol": "CCAT",
+  "claims": {
+    "0xC919123A33C342906D4550f436Fd0ED663EF97A7": {
+      "index": 0,
+      "amount": "1000000000000000000",
+      "proof": [
+        "0xaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+        "0xbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb"
+      ]
+    }
+  }
+}
