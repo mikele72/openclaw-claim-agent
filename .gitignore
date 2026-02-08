@@ -16,3 +16,25 @@ contracts/lib/
 
 # mac
 .DS_Store
+
+# env / secrets
+.env
+.env.*
+!.env.example
+
+# runtime state
+state/users.json
+state/status.json
+logs/
+*.log
+
+# node
+node_modules/
+
+# foundry
+contracts/broadcast/
+contracts/cache/
+contracts/out/
+
+# mac
+.DS_Store

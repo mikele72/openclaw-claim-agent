@@ -1,0 +1,25 @@
+{
+  "name": "openclaw-claim-agent",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mikele72/openclaw-claim-agent.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mikele72/openclaw-claim-agent/issues"
+  },
+  "homepage": "https://github.com/mikele72/openclaw-claim-agent#readme",
+  "dependencies": {
+    "dotenv": "^17.2.4",
+    "viem": "^2.45.1"
+  },
+  "type": "module"
+}
